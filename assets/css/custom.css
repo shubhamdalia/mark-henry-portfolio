@@ -1,1 +1,10 @@
 /* PLACE YOUR CUSTOM STYLES IN THIS FILE */
+@font-face{
+	src: url (../fonts/font-heading.ttf);
+	font-family: heading-font;
+};
+
+h1{
+	font-family: heading-font!important;
+	color: red!important;
+};

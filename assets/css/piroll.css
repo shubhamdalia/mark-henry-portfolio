@@ -71,6 +71,17 @@
   Base
 
  -------------------------------------------------------------------*/
+
+@font-face{
+    src: url (../fonts/nimbus-sans-l.regular.otf);
+    font-family: heading-font;
+}
+@font-face{
+    src: url (../fonts/Calluna-Regular.otf);
+    font-family: paragraph-font;
+}
+
+
 html {
     overflow-y: scroll;
 }
@@ -78,6 +89,7 @@ html {
 body {
     color: #5f5f5f;
     background-color: #f6f6f6;
+
 }
 
 .nk-main {
@@ -425,6 +437,8 @@ body {
 
 p {
     margin-bottom: 1.6rem;
+    font-family: paragraph-font;
+    font-size: 22px;
 }
 
 b,
@@ -463,8 +477,7 @@ h5,
 h6,
 .h6 {
     margin-bottom: 1rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: #171717;
 }
 
